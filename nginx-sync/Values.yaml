@@ -1,4 +1,4 @@
 namespace:
-  name: amit-stage-nginx-namespace
+  name: shubham-stage-nginx-namespace
 serviceAccount:
-  name: amit-stage-nginx-sa
+  name: shubham-stage-nginx-sa
