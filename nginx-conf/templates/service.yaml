@@ -6,9 +6,9 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-    - port: 80
+    - port: 200
       protocol: TCP
-      targetPort: 80
+      targetPort: 200
       name: http
   selector:
     app.kubernetes.io/name: external-app
