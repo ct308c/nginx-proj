@@ -39,7 +39,7 @@ spec:
               memory: '256Mi'
               cpu: '200m'
           ports:
-            - containerPort: 200
+            - containerPort: 80
               name: http
               protocol: TCP
           livenessProbe:
